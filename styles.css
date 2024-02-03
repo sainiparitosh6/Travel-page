@@ -91,3 +91,81 @@
 .destination strong {
   color: rgb(0, 160, 117);
 }
+
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
+    z-index: 1000;
+  }
+
+  #page-logo a {
+    font-size: 24px;
+  }
+
+  header a {
+    font-size: 16px;
+  }
+
+  main {
+    padding-top: 60px; 
+  }
+
+  #hero {
+    height: 400px;
+    position: relative;
+  }
+
+  #hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  #hero-content h1 {
+    font-size: 28px;
+  }
+
+  #hero-content p {
+    font-size: 16px;
+  }
+
+  #hero-content a {
+    font-size: 16px;
+  }
+
+  #highlights h2 {
+    font-size: 28px;
+  }
+
+  #destinations {
+    flex-wrap: wrap;
+  }
+
+  .destination {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+
+  .destination img {
+    height: 150px;
+  }
+
+  .destination p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  .actions a {
+    font-size: 14px;
+  }
+}
