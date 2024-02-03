@@ -74,3 +74,53 @@ main li img {
 .actions a:hover{
   background-color: rgb(235, 253, 255);
 }
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    padding: 15px 20px;
+  }
+
+  #page-logo a {
+    font-size: 24px;
+  }
+
+  header a {
+    font-size: 16px;
+  }
+
+  main ul {
+    width: 90%;
+    margin: 0 auto 24px auto;
+    grid-template-columns: 1fr;
+  }
+
+  main li {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  li:nth-of-type(3) {
+    grid-column: auto;
+  }
+
+  main li img {
+    width: 100%;
+    height: auto;
+  }
+
+  .item-content {
+    padding: 16px;
+  }
+
+  .item-content h2 {
+    font-size: 20px;
+  }
+
+  .actions a {
+    font-size: 14px;
+  }
+}
